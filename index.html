@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+<title>BloxVerse Studio</title>
+<meta name='description' content='Build 3D games in your browser: place blocks, coins, checkpoints and goals, then test play.'>
+<meta name='theme-color' content='#141516'>
+<link rel='manifest' href='manifest.webmanifest'>
+<link rel='icon' type='image/png' href='icons/icon-192.png'>
+<link rel='apple-touch-icon' href='icons/icon-192.png'>
+<link rel='stylesheet' href='css/style.css'>
+</head><body>
+<div id='app'>
+<header id='tb'><b class='lg'><i>Blox</i>Studio</b><input id='gn' value='My Game' maxlength='30' aria-label='Game name'>
+<div class='grp'><button data-add='block'>Block</button><button data-add='sphere'>Sphere</button><button data-add='cyl'>Cylinder</button><button data-add='spawn'>Spawn</button><button data-add='coin'>Coin</button><button data-add='kill'>Kill brick</button><button data-add='check'>Checkpoint</button><button data-add='goal'>Goal</button></div>
+<div class='grp'><button data-a='dup'>Duplicate</button><button data-a='del'>Delete</button></div>
+<div class='grp'><button data-a='save'>Save</button><button data-a='open'>Open</button><button data-a='exp'>Export</button><button data-a='imp'>Import</button><button data-a='new'>New</button></div>
+<button class='go' data-a='play'>&#9654; Test Play</button></header>
+<aside id='ex'><h4>Explorer</h4><div id='tree'></div></aside>
+<section id='vw'><canvas id='vp'></canvas>
+<div id='pctl'><button id='stop'>Stop</button><span id='ps'></span></div>
+<div id='js'><div id='kn'></div></div><button id='jb'>JUMP</button><div id='win'></div></section>
+<aside id='pr'><h4>Properties</h4><div id='props'></div></aside>
+</div>
+<div id='dlg'></div><div id='tt'></div>
+<input type='file' id='fi' accept='.json,application/json' hidden>
+<script src='vendor/three.min.js'></script>
+<script src='js/studio.js'></script>
+</body></html>
