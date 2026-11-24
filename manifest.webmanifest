@@ -1,0 +1,43 @@
+{
+  "id": "./",
+  "name": "BloxVerse Studio",
+  "short_name": "BloxStudio",
+  "description": "Build 3D games in your browser: place blocks, coins, checkpoints and goals, then test play.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#141516",
+  "theme_color": "#141516",
+  "categories": [
+    "games",
+    "developer tools"
+  ],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
